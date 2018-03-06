@@ -20,7 +20,8 @@ from optparse import OptionParser
 from optparse import OptionGroup
 import argparse
 import copy
-import simplejson
+import json as simplejson
+#Update for newer versions of python, not sure why legacy isnt working, but this fixed it in my build
 import os.path
 import ConfigParser
 import time
